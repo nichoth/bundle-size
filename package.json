@@ -8,7 +8,7 @@
     "esbuild": "^0.15.9"
   },
   "scripts": {
-    "build-preact": "npx esbuild --bundle preact/index.js > preact/bundle.js",
-    "build-tonic": "npx esbuild --bundle tonic/index.js > tonic/bundle.js"
+    "build-preact": "npx esbuild --bundle --minify preact/index.js > preact/bundle.js",
+    "build-tonic": "npx esbuild --bundle --minify tonic/index.js > tonic/bundle.js"
   }
 }
